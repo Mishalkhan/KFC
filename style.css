@@ -1,0 +1,148 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-color: black;
+}
+.bcolor_red_icon{
+    background-color: red;
+    border-radius: 50%;
+}
+.button1_container{
+    text-align: center;
+}
+.button_1{
+    align-items: center;
+    width:50%;
+    border-radius: 10px;
+    background-color: #EA002A;
+    border: 1px solid #EA002A;
+    color: white;
+}
+/* Main_Container */
+.container{
+    width: 90%;
+    margin: auto;
+}
+
+/* hr */
+.hr1{
+    border: 2px solid #EA002A;
+    width: 6%;
+    margin: 0%;
+    padding: 0%;
+    opacity: 1;
+}
+/* .hr2{
+    border: 2px solid #EA002A;
+
+    width: 10%;
+    margin: 0%;
+    padding: 0%;
+    opacity: 1;
+} */
+
+/* .hr0{
+    padding: 0%;
+    margin: 0%;
+} */
+.hr3{
+    border: 5px solid #888888;
+    width: 100%;
+    height: 5px;
+    background-color: #888888;
+    border: 0px;
+}
+.hr4{
+    width: 50%;
+    height: 5px;
+    background-color:white;
+    opacity: 1;
+}
+
+/* Rounded Cards */
+
+.card_box_rounded{
+    display: flex;
+    justify-content: space-between;
+}
+.card11{
+    text-align: center;
+    position: relative;
+    height: 220px;
+    width: 200px;
+    background-color: #1C1816;
+    border-top-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    align-items: center;
+}
+.card11_child{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+    background-color: black;
+    width: 20px;
+    height: 20px;
+}
+/* 
+.card11 img{
+} */
+.card11 p{
+    color: white;
+    text-align: center;
+    margin-top: 0%;
+}
+
+/*  Cards */
+
+.card_box1{
+    display: flex;
+    justify-content: space-between;
+}
+.card2{
+    position: relative;
+    width: 23%;
+    background-color: #1C1816;
+    padding: 50px 0px 0px 0px;
+}
+.card2 img{
+    padding-top: 30px ;
+}
+.card2 .body h4{
+    padding-left: 10px;
+    color: white;
+    background-color:#1C1816;
+    font-weight: 700;
+}
+
+.card2_child2{
+    position: absolute;
+    width: 100px;
+    text-align: center;
+    top: 90px;
+    right: 0px;
+    background-color: #EA002A;
+    color:white;
+    font-weight: 600;
+}
+/*  2nd CardLine  */
+.card_wrap{
+    display: flex;
+    justify-content: space-between;
+}
+.card{
+    background-color: #1C1816;
+    color: white;
+    width: 23%;
+    padding: 0px 10px;
+    position: relative;
+}
+.button_child{
+    position: absolute;
+    bottom: -25px;
+    left: 25%;
+
+}
